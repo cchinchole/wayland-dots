@@ -17,7 +17,8 @@
         "group/sysstats",
         "network",
         "pulseaudio",
-        "tray"
+        "tray",
+        "custom/power",
     ],
 
     "group/sysstats" : {
@@ -31,7 +32,9 @@
         "on-scroll-up": "hyprctl dispatch workspace e+1",
          "on-scroll-down": "hyprctl dispatch workspace e-1"
     },
-
+    "hyprland/window": {
+        "max-length": 40
+    },
     "keyboard-state": {
         "numlock": true,
         "capslock": true,
@@ -140,6 +143,10 @@
         "escape": true,
         "exec": "$HOME/.config/waybar/scripts/mediaplayer.py 2> /dev/null" // Script in resources folder
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
+    },
+    "custom/power": {
+        "format": "⏻",
+        "on-click": "wlogout",
     }
 }
 

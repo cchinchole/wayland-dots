@@ -1,0 +1,10 @@
+update_check_interval 0
+confirm_os_window_close 0
+font_family JetBrains Mono
+font_size 18
+
+
+# BEGIN_KITTY_THEME
+# Neowave
+include current-theme.conf
+# END_KITTY_THEME

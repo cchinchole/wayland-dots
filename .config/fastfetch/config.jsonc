@@ -1,0 +1,57 @@
+{
+"$schema": "https://github.com/fastfetch-cli/fastfetch/dev/doc/json_schema.json",
+
+
+"logo": {
+         "source": "~/Pictures/power.png",
+         "width": 20,
+         "height": 15,
+         "type": "kitty"
+},
+
+
+
+"display": {
+    "separator": ": "
+},
+
+"modules": [
+"break",
+"title",
+"break",
+{
+    "type": "cpu",
+    "outputColor": "yellow"
+},
+{
+    "type": "gpu",
+    "outputColor": "yellow"
+},
+{
+    "type": "disk",
+    "outputColor": "yellow"
+},
+{
+    "type": "memory",
+    "outputColor": "yellow"
+},
+{
+    "type": "shell",
+    "outputColor": "yellow"
+},
+{
+    "type": "kernel",
+    "outputColor": "yellow"
+},
+{
+    "type": "os",
+    "outputColor": "yellow"
+},
+{
+    "type": "packages",
+    "outputColor": "yellow"
+},
+]
+
+
+}
