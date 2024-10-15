@@ -4,10 +4,10 @@ autoload -U colors && colors
 
 # Environment Variables
 export XDG_CONFIG_HOME=~/.config
-export PATH="$PATH:/home/christian/.local/bin"
+export PATH="$PATH:/home/kafka/.local/bin"
 export PATH="$PATH:$HOME/.local/share/gem/ruby/3.0.0/bin"
 
-eval "kitty @ set-colors -c $HOME/base16-kitty/colors/$(cat $XDG_CONFIG_HOME/.base16_theme).conf"
+#eval "kitty @ set-colors -c $HOME/base16-kitty/colors/$(cat $XDG_CONFIG_HOME/.base16_theme).conf"
 eval "$(oh-my-posh init zsh --config '~/.config/ohmyposh/myconf.json')"
 
 HISTFILE=~/.histfile
@@ -23,7 +23,10 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=magenta,bold'
 
-fastfetch
+#fastfetch
 
 #Aliases
 #command -v colorls > /dev/null && alias ls='colorls --sd --gs'
+
+# bun completions
+[ -s "/home/kafka/.bun/_bun" ] && source "/home/kafka/.bun/_bun"

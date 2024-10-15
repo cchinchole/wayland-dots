@@ -1,15 +1,10 @@
 {
 "$schema": "https://github.com/fastfetch-cli/fastfetch/dev/doc/json_schema.json",
 
-
 "logo": {
-         "source": "~/Pictures/power.png",
-         "width": 20,
-         "height": 15,
-         "type": "kitty"
-},
-
-
+        "source": "~/.config/fastfetch/logo.txt",
+        "type": "file"
+    },
 
 "display": {
     "separator": ": "

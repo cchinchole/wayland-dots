@@ -17,6 +17,6 @@ else
         #wal -i `cat ~/.cache/wal/wal` > /dev/null
     elif [ -n "${THEMES}" ]
     then
-        wal -o /home/christian/scripts/reload.sh -i $WALLPAPERDIR${THEMES} --saturate 0.5 > /dev/null
+        wal -o /home/kafka/scripts/reload.sh -i $WALLPAPERDIR${THEMES} --saturate 0.5 > /dev/null
     fi
 fi
