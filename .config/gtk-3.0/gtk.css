@@ -1,13 +1,13 @@
-@define-color accent_color #f3b2e3;
+@define-color accent_color #f4b2e3;
 @define-color accent_bg_color #67355e;
 @define-color accent_fg_color #ffd7f2;
 @define-color destructive_color #ffb4ab;
 @define-color destructive_bg_color #93000a;
 @define-color destructive_fg_color #ffdad6;
 @define-color success_color #dbbed1;
-@define-color success_bg_color #554050;
-@define-color success_fg_color #f8daee;
-@define-color warning_color #f5b9a5;
+@define-color success_bg_color #564050;
+@define-color success_fg_color #f8daed;
+@define-color warning_color #f5b9a4;
 @define-color warning_bg_color #663c2d;
 @define-color warning_fg_color #ffdbcf;
 @define-color error_color #ffb4ab;
@@ -53,3 +53,4 @@ window.csd,             /* gtk4? */
 window.csd decoration { /* gtk3 */
   box-shadow: none;
 }
+@import 'colors.css';

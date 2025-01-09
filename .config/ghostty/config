@@ -1,0 +1,8 @@
+#Colors
+#background = 111111
+#foreground = ffffff
+#theme = 3024 Night
+theme = deep
+font-size = 20
+gtk-titlebar = false
+gtk-tabs-location = hidden

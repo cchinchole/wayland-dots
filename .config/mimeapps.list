@@ -1,0 +1,39 @@
+[Added Associations]
+application/pdf=firefox-3.desktop;firefox-2.desktop;firefox.desktop;
+application/x-extension-htm=firefox.desktop;
+application/x-extension-html=firefox.desktop;
+application/x-extension-shtml=firefox.desktop;
+application/x-extension-xht=firefox.desktop;
+application/x-extension-xhtml=firefox.desktop;
+application/x-osu-beatmap-archive=osu-lazer.desktop;
+application/x-osu-skin-archive=osu-lazer.desktop;
+application/xhtml+xml=firefox.desktop;
+image/jpeg=gimp.desktop;feh.desktop;
+image/png=gimp.desktop;
+image/webp=gimp.desktop;
+text/html=firefox.desktop;
+text/plain=org.kde.kate.desktop;
+text/x-c++src=org.kde.kate.desktop;
+x-scheme-handler/chrome=firefox.desktop;
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
+
+[Default Applications]
+application/pdf=firefox-3.desktop;
+application/x-extension-htm=firefox.desktop
+application/x-extension-html=firefox.desktop
+application/x-extension-shtml=firefox.desktop
+application/x-extension-xht=firefox.desktop
+application/x-extension-xhtml=firefox.desktop
+application/xhtml+xml=firefox.desktop
+inode/directory=thunar.desktop
+text/html=firefox.desktop
+x-scheme-handler/chrome=firefox.desktop
+x-scheme-handler/discord-1216669957799018608=discord-1216669957799018608.desktop
+x-scheme-handler/discord-409416265891971072=discord-409416265891971072.desktop
+x-scheme-handler/etcher=balenaEtcher.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/miru=miru.desktop
+x-scheme-handler/wowup=wowup-cf.desktop
+x-scheme-handler/youtubemusic=YouTube Music.desktop
