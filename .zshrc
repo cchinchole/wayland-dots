@@ -7,6 +7,9 @@ export XDG_CONFIG_HOME=~/.config
 export PATH="$PATH:/home/kafka/opt/cross/bin"
 export PATH="$PATH:/home/kafka/.local/bin"
 export PATH="$PATH:$HOME/.local/share/gem/ruby/3.0.0/bin"
+export PATH="$PATH:$HOME/scripts"
+. ~/.local/lib/python/bin/activate
+#export PATH="$PATH:$HOME/.local/lib/python/bin/activate"
 
 #OhMyPosh Prompt
 #eval "kitty @ set-colors -c $HOME/base16-kitty/colors/$(cat $XDG_CONFIG_HOME/.base16_theme).conf"

@@ -1,0 +1,69 @@
+######################
+### Launch Hotkeys ###
+######################
+super + Return
+    wezterm
+
+super + w
+    firefox
+
+super + e
+    thunar
+
+
+
+######################
+### Client Hotkeys ###
+######################
+
+#Send window to workspace
+super + shift + {1-9}
+    bspc node -d '^{1-9}' --follow
+    
+#Focus different workspace
+super + {1-9}
+    bspc {desktop -f} '^{1-9}'
+
+#Kill a window
+super + q
+    bspc node -c
+
+#Fullscreen
+super + f
+    bspc node -t \~fullscreen
+
+#Floating
+super + v
+    bspc node -t \~floating
+
+# focus the node in the given direction
+super + {_,shift + }{h,j,k,l}
+	bspc node -{f,s} {west,south,north,east}
+
+
+
+######################
+###   WM hotkeys   ###
+######################
+
+#   Quit out of BSPWM instance  #
+super + shift + M
+    bspc quit
+
+#   Restart BSPWM and sxhkd #
+super + shift + r
+    pkill -USR1 -x sxhkd && bspc wm -r
+
+
+
+######################
+###  Global keys   ###
+######################
+
+#   Screenshot  #
+super + shift + s
+    maim -s | xclip -selection clipboard -t image/png; xclip -selection clipboard -t image/png -o > ~/Pictures/screenshots/screenshot_$(date +%F-%H:%M:%S).png
+
+#   Rofi    #
+super + r
+   rofi -modi drun,run -show drun
