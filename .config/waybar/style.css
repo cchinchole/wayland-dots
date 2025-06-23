@@ -29,6 +29,11 @@
   padding: 0.4rem;
 }
 
+#workspaces button.focused {
+    color: @activeColor;
+    border-radius: 5px;
+}
+
 #workspaces button.active {
   color: @activeColor;
   border-radius: 5px;

@@ -1,6 +1,7 @@
 #! /bin/sh
+xrandr --output DP-2 --primary --mode 3840x2160 -r 160 --rotate normal --output DP-4 --mode 2560x1440 -r 165 --rotate normal --left-of DP-2
 pgrep -x sxhkd > /dev/null || sxhkd &
-feh --bg-scale ~/Pictures/backgrounds/holo1.png &
+feh --bg-scale ~/Pictures/Backgrounds/holo1.png &
 picom -b --unredir-if-possible &
 otd-daemon &
 exec ~/scripts/polybar.sh &

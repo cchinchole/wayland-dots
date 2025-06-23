@@ -3,8 +3,8 @@ autoload -U colors && colors
 
 # Environment Variables
 export XDG_CONFIG_HOME=~/.config
-export PATH="$PATH:/home/ryoshu/opt/cross/bin"
-export PATH="$PATH:/home/ryoshu/.local/bin"
+export PATH="$PATH:/home/kafka/opt/cross/bin"
+export PATH="$PATH:/home/kafka/.local/bin"
 export PATH="$PATH:$HOME/.local/share/gem/ruby/3.0.0/bin"
 export PATH="$PATH:$HOME/scripts"
 
@@ -28,9 +28,9 @@ ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=magenta,bold'
 alias ll='ls -al'
 
 # bun completions
-[ -s "/home/ryoshu/.bun/_bun" ] && source "/home/ryoshu/.bun/_bun"
+[ -s "/home/kafka/.bun/_bun" ] && source "/home/kafka/.bun/_bun"
 
 #Prompt [user@host ~]
 PROMPT="[%n@%{$fg[red]%}%m%{$fg[yellow]%} %~%{$fg[white]%}]%#"
 #PROMPT="[%n@%m %~]"
-export PATH=/home/ryoshu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/ryoshu/.local/bin:/home/ryoshu/opt/cross/bin:/home/ryoshu/.local/bin:/home/ryoshu/.local/share/gem/ruby/3.0.0/bin:/home/ryoshu/scripts
+export PATH=/home/ryoshu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/kafka/.local/bin:/home/kafka/opt/cross/bin:/home/kafka/.local/bin:/home/ryoshu/.local/share/gem/ruby/3.0.0/bin:/home/ryoshu/scripts

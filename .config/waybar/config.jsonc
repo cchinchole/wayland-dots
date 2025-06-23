@@ -3,6 +3,7 @@
   "position": "top",
   "modules-left": [
     "hyprland/workspaces",
+    "sway/workspaces",
     "tray",
   ],
   "modules-center": ["custom/music"],
@@ -14,14 +15,30 @@
     "memory",
     "battery",
     "hyprland/language",
+    "sway/language",
     "clock",
   ],
+  "sway/workspaces": {
+    "format": "{name}",
+    "disable-auto-output": true,
+    "all-outputs": false,
+    "disable-scroll": false,
+    "persistent_workspaces": {
+        "1": ["DP-2"],
+        "2": ["DP-2"],
+        "3": ["DP-2"],
+        "4": ["DP-2"],
+        "5": ["DP-2"]
+        }
+    },
   "hyprland/workspaces": {
-    "format": "{name}: {icon}",
+    //"format": "{name}: {icon}",
+    "format": "{icon}",
     "format-icons": {
       "active": "",
       "default": ""
-    }
+    },
+    "all-outputs": false
   },
   "tray": {
     "icon-size": 21,
@@ -72,4 +89,7 @@
   "hyprland/language": {
     "format": "{short} "
   },
+  "sway/language": {
+        "format": "{short} "
+    },
 }

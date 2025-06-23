@@ -1,0 +1,75 @@
+# UFW Firewall
+#ufw (arch)
+ufw
+
+#ufw dfw default deny incoming
+#sudo ufw allow syncthing
+#sudo ufw allow outgoing
+#sudo ufw enable
+#sudo systemctl enable --now ufw
+
+#Hyprland stuff
+hypr-zoom (aur)
+xdg-desktop-portal-hyprland
+hyprpolkitagent
+hyprshot
+waybar
+
+pavucontrol
+
+ffmpeg
+mpv
+feh
+
+
+#Nvim
+npm
+ripgrep
+wget
+nodejs
+fzf
+unzip
+python
+go
+
+
+#Terminal
+ghostty
+zsh
+
+
+#Thunar
+libopenraw
+libgepub
+ffmpegthumbnailer
+
+
+#Sway
+Sway
+
+#mod the /usr/share/wayland-sessions/Sway.desktop to use --unsupported-gpu
+
+
+#Theme
+
+arc-gtk-theme (aur)
+deepin-icon-theme (aur)
+
+#gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+#gsettings set org.gtk.Settings.FileChooser startup-mode cwd
+#gsettings set org.gtk.gtk4.Settings.FileChooser startup-mode cwd
+
+
+#gsettings set org.gnome.desktop.interface gtk-theme "Arc"
+#gsettings set org.gnome.desktop.interface cursor-theme BreezeX-RosePine-Linux
+#gsettings set org.gnome.desktop.interface icon-theme 'bloom-classic'
+#gsettings set org.gnome.desktop.interface cursor-size 32
+
+
+#Firefox (use VAAPI for Cuda to decode videoes)
+#media.ffmpeg.vaapi.enabled = true
+#media.hardware-video-decoding.force-enabled = true
+#media.rdd-ffmpeg.enabled = true
+#media.av1.enabled = true
+#gfx.x11-egl.force-enabled = true
+#widget.dmabuf.force-enabled=true

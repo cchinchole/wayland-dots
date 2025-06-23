@@ -2,7 +2,7 @@
 ### Launch Hotkeys ###
 ######################
 super + Return
-    wezterm
+    alacritty
 
 super + w
     firefox

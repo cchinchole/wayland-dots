@@ -3,7 +3,8 @@
 #foreground = ffffff
 #theme = 3024 Night
 #theme = deep
-theme = detuned
+#theme = detuned
+theme = OneHalfDark
 #font-size = 20
 font-size = 24
 window-theme = system
