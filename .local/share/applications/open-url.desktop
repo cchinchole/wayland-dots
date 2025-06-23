@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Open URL
+Type=Application
+Exec=/home/ryoshu/.local/bin/open-url.sh %u
+Terminal=false
+MimeType=x-scheme-handler/http;x-scheme-handler/https;
