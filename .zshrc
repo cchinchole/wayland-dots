@@ -3,8 +3,9 @@ autoload -U colors && colors
 
 # Environment Variables
 export XDG_CONFIG_HOME=~/.config
-export PATH="$PATH:/home/ryoshu/opt/cross/bin"
-export PATH="$PATH:/home/ryoshu/.local/bin"
+export GOPATH="$HOME/opt/modules/go"
+export PATH="$PATH:$HOME/.local/bin"
+export PATH="$PATH:$HOME/opt/cross/bin"
 export PATH="$PATH:$HOME/.local/share/gem/ruby/3.0.0/bin"
 export PATH="$PATH:$HOME/scripts"
 
@@ -25,12 +26,13 @@ compinit
 ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=magenta,bold'
 
 #Aliases
-alias ll='ls -al'
+alias ll='ls -al --color=auto'
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
 
 # bun completions
-[ -s "/home/ryoshu/.bun/_bun" ] && source "/home/ryoshu/.bun/_bun"
+#[ -s "/home/ryoshu/.bun/_bun" ] && source "/home/ryoshu/.bun/_bun"
 
-#Prompt [user@host ~]
 PROMPT="[%n@%{$fg[red]%}%m%{$fg[yellow]%} %~%{$fg[white]%}]%#"
+#Prompt [user@host ~]
 #PROMPT="[%n@%m %~]"
-export PATH=/home/ryoshu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/ryoshu/.local/bin:/home/ryoshu/opt/cross/bin:/home/ryoshu/.local/bin:/home/ryoshu/.local/share/gem/ruby/3.0.0/bin:/home/ryoshu/scripts

@@ -8,12 +8,12 @@
   ],
   "modules-center": ["custom/music"],
   "modules-right": [
-    "pulseaudio",
-    "network",
     "custom/nord",
-    "cpu",
-    "memory",
-    "battery",
+    "network",
+    "pulseaudio",
+    //"cpu",
+    //"memory",
+    //"battery",
     "hyprland/language",
     "sway/language",
     "clock",
@@ -33,7 +33,7 @@
     },
   "hyprland/workspaces": {
     //"format": "{name}: {icon}",
-    "format": "{icon}",
+    "format": "{name}",
     "format-icons": {
       "active": "",
       "default": ""

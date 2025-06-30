@@ -1,9 +1,9 @@
-@define-color activeColor   #ffffff;
-@define-color inactiveColor #808080;/* #ffffff; */
+@define-color activeColor   #f57df1;
+@define-color inactiveColor #ffffff;
 @define-color highlightColor #19599e;
 * {
   font-family: JetbrainsMono Nerd Font;
-  font-size: 24px;
+  font-size: 20px;
   min-height: 0;
   padding-right: 8px;
   padding-left: 8px;
@@ -11,7 +11,7 @@
 }
 
 #waybar {
-  background: #101010; 
+  background: transparent;
   color: #FFFFFF;
   margin: 2px 2px;
 }
@@ -67,20 +67,52 @@
 }
 
 #clock {
-  color: @activeColor;
+  color: @inactiveColor;
   border-radius: 5px;
   margin-right: 1rem;
 }
 
+#battery {
+  color: #a6d189;
+}
+
+#battery.charging {
+  color: #a6d189;
+}
+
+#battery.warning:not(.charging) {
+  color: #e78284;
+}
+
+#backlight {
+  color: #e5c890;
+}
+
+#backlight,
+#battery {
+  border-radius: 0;
+}
+
 #pulseaudio {
-  color: @activeColor;
+  color: @inactiveColor;
   border-radius: 5px 0px 0px 5%;
   margin-left: 1rem;
 }
 
 #custom-music {
-  color: @activeColor;
+  color: @inactiveColor;
   border-radius: 5px;
+}
+
+#custom-lock {
+  border-radius: 5px 0px 0px 5px;
+  color: #babbf1;
+}
+
+#custom-power {
+  margin-right: 1rem;
+  border-radius: 0px 5px 5px 0px;
+  color: #e78284;
 }
 
 #tray {
