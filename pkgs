@@ -349,6 +349,7 @@ zsh-syntax-highlighting 0.8.0-1
 
 
 
+
 #Hyprland stuff
 hypr-zoom (aur)
 xdg-desktop-portal-hyprland
@@ -372,6 +373,7 @@ fzf
 unzip
 python
 go
+c3-lsp
 
 
 #Terminal
