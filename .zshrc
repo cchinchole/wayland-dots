@@ -9,6 +9,7 @@ export PATH="$PATH:$HOME/opt/cross/bin"
 export PATH="$PATH:$HOME/.local/share/gem/ruby/3.0.0/bin"
 export PATH="$PATH:$HOME/scripts"
 
+# History
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
@@ -30,9 +31,4 @@ alias ll='ls -al --color=auto'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
-# bun completions
-#[ -s "/home/ryoshu/.bun/_bun" ] && source "/home/ryoshu/.bun/_bun"
-
 PROMPT="[%n@%{$fg[red]%}%m%{$fg[yellow]%} %~%{$fg[white]%}]%#"
-#Prompt [user@host ~]
-#PROMPT="[%n@%m %~]"

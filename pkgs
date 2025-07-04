@@ -416,3 +416,11 @@ deepin-icon-theme (aur)
 #media.av1.enabled = true
 #gfx.x11-egl.force-enabled = true
 #widget.dmabuf.force-enabled=true
+
+
+### App Fixes ###
+#Firefox: (PDF issue): about:config, gfx.canvas.accelerated = false
+#Firefox: (Black Flickering? Doesnt seem to work): gfx.webrender.force-disabled = true
+#Firefox: (Scaling): about:config, layout.css.devPixelsPerPx 1.5
+#Firefox: (Scrolling): about:config, general.autoScroll true, middlemouse.paste false
+#Firefox: (Slow Loading) abount:config, browser.cache.disk: false
