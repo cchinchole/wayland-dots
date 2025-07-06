@@ -1,6 +1,6 @@
 #!/bin/sh
 
-WALLPAPERDIR=~/Pictures/backgrounds/
+WALLPAPERDIR=$HOME/Pictures/Backgrounds/
 
 if [ -z $@ ]
 then
@@ -18,5 +18,6 @@ else
     elif [ -n "${THEMES}" ]
     then
         wal -o /home/kafka/scripts/reload.sh -i $WALLPAPERDIR${THEMES} --saturate 0.5 > /dev/null
+        cp $WALLPAPEREDIR${THEMES} $HOME/.config/hypr/wallpaper
     fi
 fi

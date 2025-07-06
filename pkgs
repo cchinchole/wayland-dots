@@ -1,12 +1,14 @@
 # UFW Firewall
 #ufw (arch)
 ufw
-
 #ufw dfw default deny incoming
 #sudo ufw allow syncthing
 #sudo ufw allow outgoing
 #sudo ufw enable
 #sudo systemctl enable --now ufw
+
+#WUWA
+#bash /home/ryoshu/Games/jadeite/jd.sh %command%
 
 #Pkgs
 1password-beta #aur
@@ -15,7 +17,7 @@ avr-gcc
 base
 base-devel
 bear
-betterdiscordctl
+#betterdiscordctl -- prefer vencord
 bind
 blueman
 bluez-utils
@@ -26,329 +28,17 @@ bunjs-bin
 c3c-git #aur
 cliphist
 
+libvdpau-va-gl
+
 Thunar
 thunar-archive-plugin
 tumbler
 
-1password-beta 8.11.0_25.BETA-25
-agsv1 1.8.2-1
-alacritty 0.15.1-1
-an-anime-game-launcher-bin 3.14.3-1
-arc-gtk-theme 20221218-2
-avr-gcc 15.1.0-1
-aylurs-gtk-shell-git 2.3.0.r58.g5ee4f3c-1
-base 3-2
-base-devel 1-2
-bear 3.1.6-3
-betterdiscordctl 2.0.1-1
-bind 9.20.10-1
-blueman 2.4.4-1
-bluez-utils 5.83-1
-brave-bin 1:1.80.113-1
-bridge-utils 1.7.1-2
-brightnessctl 0.5.1-3
-bspwm 0.9.10-4
-btop 1.4.3-3
-btrfs-progs 6.15-1
-bunjs-bin 1.0.6-1
-c3c-git r3024.634438eb-1
-carla 2.5.9-1
-chafa 1.16.0-1
-chromium 138.0.7204.49-1
-cliphist 1:0.6.1-1
-clipnotify 1.0.2-3
-cpio 2.15-2
-cpupower 6.15-1
-cpupower-gui 1.0.0-5
-crypto++ 8.9.0-1
-cups 2:2.4.12-2
-dart-sass 1.86.3-1
-ddcutil 2.2.0-1
-deepin-icon-theme 2025.03.27-1
-devtools 1:1.3.2-1
-discord 1:0.0.99-1
-dmenu 5.3-3
-dnsmasq 2.91-1
-docker 1:28.3.0-1
-docker-desktop 4.42.1-1
-dolphin 25.04.2-1
-dosbox 0.74.3-3
-dosfstools 4.2-5
-efibootmgr 18-3
-emacs 30.1-5
-etcher-bin 2.1.2-1
-fastfetch 2.46.0-1
-faugus-launcher 1.7.3-1
-fd 10.2.0-1
-feh 3.10.3-1
-ffmpegthumbnailer 2.2.3-3
-figlet 2.2.5-6
-firefox 140.0.1-1
-flameshot 12.1.0-6
-ftb-app-bin 1.27.5-1
-fuzzel 1.12.0-1
-fzf 0.62.0-1
-game-devices-udev 0.24-0.1
-gamemode 1.8.2-1
-gamescope-nvidia 3.16.9-1
-gdb 16.3-1
-ghidra 11.0.3-1
-ghostty 1.1.3-1
-gimp 3.0.4-3
-gl-gsync-demo 1:1.0+3+g4fd963a-2
-gnome-bluetooth-3.0 47.1-2
-gnu-netcat 0.7.1-10
-godot 4.4.1-3
-gotop 4.2.0-3
-gparted 1.7.0-1
-gpu-screen-recorder-git r877.74d30f1-1
-greetd 0.10.3-1
-grim 1.4.1-3
-grub 2:2.12.r292.g73d1c959-1
-gst-plugin-pipewire 1:1.4.5-1
-gst-plugins-ugly 1.26.3-1
-gum 0.16.2-1
-gvim 9.1.1431-1
-helvum 0.5.1-1
-heroic-games-launcher 2.16.1-1
-honkers-launcher-bin 1.10.2-1
-htop 3.4.1-1
-hunspell 1.7.2-2
-hypr-zoom 0.0.2-1
-hyprcursor 0.1.12-4
-hyprgraphics 0.1.4-2
-hyprland 0.49.0-2
-hyprland-qt-support 0.1.0-7
-hyprland-qtutils 0.1.4-3
-hyprpicker 0.4.5-3
-hyprpolkitagent 0.1.2-8
-hyprshot-git 1.3.0.r2.f95068d-1
-hyprutils 0.8.0-1
-i3-autolayout 0.2.3-1
-i3-wm 4.24-1
-i3status 2.15-1
-inetutils 2.6-1
-intel-ucode 20250512-1
-inxi 3.3.38.1-1
-iotop 0.6-12
-jdk21-openjdk 21.0.7.u6-1
-jp2a 1.3.2-1
-juno-mirage-gtk-theme-git r249.c84d8c4-1
-juno-ocean-gtk-theme-git r265.dc720e5-1
-juno-palenight-gtk-theme-git r241.f3cb532-1
-juno-theme-git r234.b05cb45-1
-kate 25.04.2-1
-kde-cli-tools 6.4.1-1
-kscreen 6.4.1-1
-kvantum 1.1.5-1
-kvantum-theme-materia 20220823-3
-ladspa 1.17-5
-less 1:668-1
-lib32-libgcrypt 1.11.1-1
-lib32-libjpeg-turbo 3.1.1-1
-lib32-libpng 1.6.49-1
-lib32-libva-vdpau-driver 0.7.4-8
-lib32-libxinerama 1.1.5-2
-lib32-libxslt 1.1.43-2
-lib32-mpg123 1.32.10-1
-lib32-nvidia-utils 575.64-2
-lib32-openal 1.24.3-1
-lib32-opencl-nvidia 575.64-2
-libastal-tray-git r798.95c6d6d-1
-libgepub 0.7.3-2
-libkeybinder3 0.3.2-5
-libmad 0.15.1b-10
-libopenraw 0.3.7-2
-libva-nvidia-driver 0.0.14-1
-linux 6.15.3.arch1-1
-linux-firmware 20250613.12fe085f-9
-linux-headers 6.15.3.arch1-1
-linux-zen 6.15.3.zen1-1
-linux-zen-headers 6.15.3.zen1-1
-localsearch 3.9.0-3
-luarocks 3.12.1-1
-lutris-git 0.5.19.r150.ge47d2d7-1
-maim 5.8.0-3
-mangohud 0.8.1-1
-materia-kde 20220823-3
-matugen-bin 2.4.1-1
-modemmanager 1.24.0-1
-mpvpaper 1.8-1
-mtools 1:4.0.49-1
-neovim 0.11.2-3
-net-tools 2.10-3
-networkmanager 1.52.0-1
-niri 25.05.1-2
-nm-connection-editor 1.36.0-1
-nnn 5.1-1
-noise-suppression-for-voice 1.10-1
-noisetorch 0.12.2-5
-nordvpn-bin 4.0.0-1
-noto-fonts-cjk 20240730-1
-npm 11.4.2-1
-ntfs-3g 2022.10.3-2
-ntfs2btrfs 20240115-1
-nushell 0.105.1-1
-nvidia-dkms 575.64-1
-nvidia-settings 575.64-1
-nwg-look-bin 0.2.7-1
-obs-studio-git 31.0.3.r240.ge0e132e-1
-oh-my-posh 26.10.1-1
-opencl-nvidia 575.64-1
-opentabletdriver 0.6.5.1-1
-optipng 7.9.1-1
-os-prober 1.83-1
-osu-lazer-bin 2025.607.0-1
-pacman-contrib 1.12.0-1
-pacutils 0.15.0-1
-pamixer 1.6-3
-papirus-icon-theme 20250501-1
-pastel 0.10.0-1
-pavucontrol 1:6.1-1
-pfetch 1.9.1-1
-phonon-qt6 4.12.0-4
-picom 12.5-3
-pipewire 1:1.4.5-1
-pipewire-alsa 1:1.4.5-1
-pipewire-jack 1:1.4.5-1
-pipewire-pulse 1:1.4.5-1
-plasma-desktop 6.4.1-1
-polkit-gnome 0.105-11
-polybar 3.7.2-2
-power-profiles-daemon 0.30-1
-protontricks 1.12.1-1
-protonup-qt 2.12.0-1
-psensor 1.2.1-4
-python-dotenv 1.1.1-1
-python-jinja 1:3.1.6-1
-python-levenshtein 0.27.0-1
-python-materialyoucolor-git 2.0.9.r3.g85099ce-1
-python-openai 1.88.0-1
-python-pip 25.1.1-1
-python-pipx 1.7.1-2
-python-protobuf 31.1-1
-python-pyinotify 0.9.6-15
-python-pytorch-cuda 2.7.1-3
-python-pywalfox 2.7.4-1
-python-pywayland 0.4.18-2
-python-virtualenv 20.28.0-1
-python-websocket-client 1.8.0-2
-qbittorrent 5.1.1-1
-qemu-base 10.0.0-7
-qemu-full 10.0.0-7
-qemu-hw-usb-host 10.0.0-7
-qt5-multimedia 5.15.17+kde+r2-1
-qt5-speech 5.15.17+kde+r1-1
-qt5-wayland 5.15.17+kde+r57-1
-qt5-x11extras 5.15.17-1
-qt5ct 1.9-1
-qt6-positioning 6.9.1-1
-qt6-quick3d 6.9.1-1
-qt6-sensors 6.9.1-1
-qt6-webchannel 6.9.1-1
-qt6-webengine 6.9.1-1
-qt6-websockets 6.9.1-1
-qt6ct 0.10-4
-ranger 1.9.4-4
-rate-mirrors-bin 0.20.0-1
-reflector 2023-3
-ripgrep 14.1.1-1
-rofi-wayland 1.7.9.1-1
-rose-pine-cursor 1.1.0-2
-rose-pine-gtk-theme-full 2.2.0-2
-rose-pine-hyprcursor v0.3.2.r0.d2c0e680-1
-ruby 3.4.4-2
-runelite 1:2.7.5-1
-s-tui 1.2.0-1
-samba 2:4.22.2-1
-screen 5.0.1-3
-scrot 1.12.1-1
-sddm-theme-corners-git r40.6ff0ff4-1
-slurp 1.5.0-1
-sox 14.4.2+r184+gf3094754-7
-spectacle 1:6.4.1-1
-starship 1.23.0-1
-steam 1.0.0.82-2
-steam-native-runtime 1.0.0.75-4
-stow 2.4.1-1
-strawberry 1.2.11-2
-swayfx 0.5.1-3
-swaync 0.11.0-1
-swww 0.10.3-1
-sxhkd 0.6.2-4
-tcpdump 4.99.5-1
-telegram-desktop 5.15.4-2
-the-honkers-railway-launcher-bin 1.10.0-2
-themix-full-git 1.15.1-1
-thunar 4.20.3-1
-thunar-archive-plugin 0.6.0-1
-thunar-volman 4.20.0-2
-tio 3.9-1
-tmux 3.5_a-1
-ttf-firacode-nerd 3.4.0-1
-ttf-font-awesome 6.7.2-1
-ttf-google-sans 1-4
-ttf-jetbrains-mono 2.304-2
-ttf-jetbrains-mono-nerd 3.4.0-1
-ttf-material-symbols-variable-git 4.0.0.r119.gc51274e9-1
-ttf-meslo-nerd 3.4.0-1
-ttf-meslo-nerd-font-powerlevel10k 2.3.3-1
-ttf-nerd-fonts-symbols 3.4.0-1
-ttf-opensans 3.003-1
-tumbler 4.20.0-3
-ufw 0.36.2-5
-ulauncher 5.15.7-1
-umu-launcher 1.2.6-1
-unrar 1:7.1.8-1
-unzip 6.0-22
-uwsm 0.23.0-1
-valgrind 3.25.1-1
-vesktop-bin 1.5.7-2
-vi 1:070224-6
-virt-manager 5.0.0-1
-virtualbox 7.1.10-1
-vkd3d-proton-git v2.14.1.r251.gfef33be4-1
-vrrtest-git r33.79bd724-1
-vulkan-tools 1.4.313.0-1
-waybar 0.13.0-1
-webkit2gtk 2.48.3-1
-wezterm-git 20250504.063133.dd3caaae-1
-wget 1.25.0-2
-wine 10.9-1
-wireless_tools 30.pre9-4
-wireplumber 0.5.10-1
-wireshark-qt 4.4.7-1
-wl-clip-persist 0.4.3-2
-wl-gammarelay 0.1.3-1
-wlogout 1.2.2-0
-wmctrl 1.07-6
-wmenu 0.2.0-1
-wowup-cf-bin 1:2.20.0-4
-x11-ssh-askpass 1.2.4.1-8
-xclip 0.13-6
-xcursor-pro-hyprcursor 0.2-3
-xdg-desktop-portal-gtk 1.15.3-1
-xdg-desktop-portal-hyprland 1.3.9-10
-xdg-desktop-portal-wlr 0.7.1-1
-xivlauncher-git 1:1.1.2.r0.g5dba444-7
-xorg-xeyes 1.3.0-2
-xorg-xhost 1.0.10-1
-xorg-xinit 1.4.4-1
-xwayland-satellite 0.6-1
-yay 12.5.0-1
-yay-debug 12.3.5-1
-ydotool 1.0.4-2
-youtube-music-bin 3.9.0-1
-ytfzf 2.6.2-2
-zram-generator 1.2.1-1
-zsh 5.9-5
-zsh-autocomplete 25.03.19-1
-zsh-autosuggestions 0.7.1-1
-zsh-syntax-highlighting 0.8.0-1
+#Gaming
+steam
 
-
-
-
+#image
+imagemagick
 
 #Hyprland stuff
 hypr-zoom (aur)
@@ -356,13 +46,13 @@ xdg-desktop-portal-hyprland
 hyprpolkitagent
 hyprshot
 waybar
+wallunst
 
 pavucontrol
 
 ffmpeg
 mpv
 feh
-
 
 #Nvim
 npm
@@ -373,41 +63,30 @@ fzf
 unzip
 python
 go
-c3-lsp
-
 
 #Terminal
 ghostty
 zsh
-
 
 #Thunar
 libopenraw
 libgepub
 ffmpegthumbnailer
 
-
 #Sway
 Sway
-
 #mod the /usr/share/wayland-sessions/Sway.desktop to use --unsupported-gpu
 
-
 #Theme
-
 arc-gtk-theme (aur)
 deepin-icon-theme (aur)
-
 #gsettings set org.gnome.desktop.interface color-scheme prefer-dark
 #gsettings set org.gtk.Settings.FileChooser startup-mode cwd
 #gsettings set org.gtk.gtk4.Settings.FileChooser startup-mode cwd
-
-
 #gsettings set org.gnome.desktop.interface gtk-theme "Arc"
 #gsettings set org.gnome.desktop.interface cursor-theme BreezeX-RosePine-Linux
 #gsettings set org.gnome.desktop.interface icon-theme 'bloom-classic'
 #gsettings set org.gnome.desktop.interface cursor-size 32
-
 
 #Firefox (use VAAPI for Cuda to decode videoes)
 #media.ffmpeg.vaapi.enabled = true
@@ -417,10 +96,310 @@ deepin-icon-theme (aur)
 #gfx.x11-egl.force-enabled = true
 #widget.dmabuf.force-enabled=true
 
-
 ### App Fixes ###
 #Firefox: (PDF issue): about:config, gfx.canvas.accelerated = false
 #Firefox: (Black Flickering? Doesnt seem to work): gfx.webrender.force-disabled = true
 #Firefox: (Scaling): about:config, layout.css.devPixelsPerPx 1.5
 #Firefox: (Scrolling): about:config, general.autoScroll true, middlemouse.paste false
 #Firefox: (Slow Loading) abount:config, browser.cache.disk: false
+
+#All system pkgs
+1password-beta
+alacritty
+an-anime-game-launcher-bin
+arc-gtk-theme
+base
+base-devel
+bear
+bind
+blueman
+bluez-utils
+bridge-utils
+brightnessctl
+bspwm
+btop
+btrfs-progs
+c3c-git
+chafa
+cliphist
+clipnotify
+cpio
+cpupower
+cpupower-gui
+crypto++
+cups
+dart-sass
+ddcutil
+deepin-icon-theme
+devtools
+discord
+dmenu
+dnsmasq
+docker
+docker-desktop
+dolphin
+dosbox
+dosfstools
+efibootmgr
+emacs
+etcher-bin
+fastfetch
+faugus-launcher
+fd
+feh
+ffmpegthumbnailer
+figlet
+firefox
+fzf
+game-devices-udev
+gamemode
+gamescope-nvidia
+gdb
+ghidra
+ghostty
+gimp
+gl-gsync-demo
+gnome-bluetooth-3.0
+gnu-netcat
+godot
+gotop
+gparted
+gpu-screen-recorder-git
+greetd
+grim
+grub
+gst-plugin-pipewire
+gst-plugins-ugly
+gum
+gvim
+helvum
+heroic-games-launcher
+honkers-launcher-bin
+htop
+hunspell
+hypr-zoom
+hyprcursor
+hyprgraphics
+hyprland
+hyprland-qt-support
+hyprland-qtutils
+hyprpicker
+hyprpolkitagent
+hyprshot-git
+hyprutils
+i3-autolayout
+i3-wm
+i3status
+inetutils
+intel-ucode
+inxi
+iotop
+jdk21-openjdk
+jp2a
+juno-mirage-gtk-theme-git
+juno-ocean-gtk-theme-git
+juno-palenight-gtk-theme-git
+juno-theme-git
+kate
+kde-cli-tools
+kscreen
+kvantum
+kvantum-theme-materia
+ladspa
+less
+lib32-libgcrypt
+lib32-libjpeg-turbo
+lib32-libpng
+lib32-libva-vdpau-driver
+lib32-libxinerama
+lib32-libxslt
+lib32-mpg123
+lib32-nvidia-utils
+lib32-openal
+lib32-opencl-nvidia
+libastal-tray-git
+libgepub
+libkeybinder3
+libmad
+libopenraw
+libva-nvidia-driver
+linux
+linux-firmware
+linux-headers
+linux-zen
+linux-zen-headers
+localsearch
+luarocks
+lutris-git
+maim
+mangohud
+materia-kde
+matugen-bin
+modemmanager
+mtools
+neovim
+net-tools
+networkmanager
+niri
+nm-connection-editor
+nnn
+noise-suppression-for-voice
+noisetorch
+nordvpn-bin
+noto-fonts-cjk
+npm
+ntfs-3g
+ntfs2btrfs
+nushell
+nvidia-dkms
+nvidia-settings
+nwg-look-bin
+obs-studio-git
+oh-my-posh
+opencl-nvidia
+opentabletdriver
+optipng
+os-prober
+osu-lazer-bin
+pacman-contrib
+pacutils
+pamixer
+papirus-icon-theme
+pastel
+pavucontrol
+pfetch
+phonon-qt6
+picom
+pipewire
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+plasma-desktop
+polkit-gnome
+polybar
+power-profiles-daemon
+protontricks
+protonup-qt
+psensor
+python-dotenv
+python-jinja
+python-levenshtein
+python-materialyoucolor-git
+python-openai
+python-pip
+python-pipx
+python-protobuf
+python-pyinotify
+python-pytorch-cuda
+python-pywalfox
+python-pywayland
+python-virtualenv
+python-websocket-client
+qbittorrent
+qemu-base
+qemu-full
+qemu-hw-usb-host
+qt5-multimedia
+qt5-speech
+qt5-wayland
+qt5-x11extras
+qt5ct
+qt6-positioning
+qt6-quick3d
+qt6-sensors
+qt6-webchannel
+qt6-webengine
+qt6-websockets
+qt6ct
+ranger
+rate-mirrors-bin
+reflector
+ripgrep
+rofi-wayland
+rose-pine-cursor
+rose-pine-gtk-theme-full
+rose-pine-hyprcursor
+ruby
+runelite
+s-tui
+samba
+screen
+scrot
+sddm-theme-corners-git
+slurp
+sox
+steam
+steam-native-runtime
+stow
+swayfx
+swaync
+swww
+sxhkd
+tcpdump
+telegram-desktop
+the-honkers-railway-launcher-bin
+themix-full-git
+thunar
+thunar-archive-plugin
+thunar-volman
+tio
+tmux
+ttf-firacode-nerd
+ttf-font-awesome
+ttf-google-sans
+ttf-jetbrains-mono
+ttf-jetbrains-mono-nerd
+ttf-material-symbols-variable-git
+ttf-meslo-nerd
+ttf-meslo-nerd-font-powerlevel10k
+ttf-nerd-fonts-symbols
+ttf-opensans
+tumbler
+ufw
+ulauncher
+umu-launcher
+unrar
+unzip
+uwsm
+valgrind
+vi
+virt-manager
+virtualbox
+vkd3d-proton-git
+vrrtest-git
+vulkan-tools
+waybar
+webkit2gtk
+wezterm-git
+wget
+wine
+wireless_tools
+wireplumber
+wireshark-qt
+wl-clip-persist
+wl-gammarelay
+wlogout
+wmctrl
+wmenu
+wowup-cf-bin
+x11-ssh-askpass
+xclip
+xcursor-pro-hyprcursor
+xdg-desktop-portal-gtk
+xdg-desktop-portal-hyprland
+xdg-desktop-portal-wlr
+xivlauncher-git
+xorg-xeyes
+xorg-xhost
+xorg-xinit
+xwayland-satellite
+yay
+yay-debug
+ydotool
+youtube-music-bin
+ytfzf
+zram-generator
+zsh
+zsh-autocomplete
+zsh-autosuggestions
+zsh-syntax-highlighting

@@ -13,8 +13,8 @@ export __GL_VRR_ALLOWED=1 # Recommended 0 for some games, setting to 1 breaks th
 export __GL_GSYNC_ALLOWED=1
 
 #Game stuff
-export SDL_VIDEODRIVER=wayland
-export CLUTTER_BACKEND=wayland
+export SDL_VIDEODRIVER=wayland,x11
+#export CLUTTER_BACKEND=wayland
 
 #Firefox stuff
 export MOZ_ENABLE_WAYLAND=1
@@ -24,13 +24,15 @@ export MOZ_DISABLE_RDD_SANDBOX=1
 #export MOZ_DISABLE_SANDBOX=1  Not doing this for now
 
 #Kitty Stuff
-export ENABLE_VKBASALT=1
-export KITTY_ENABLE_WAYLAND=1
+#export ENABLE_VKBASALT=1
+#export KITTY_ENABLE_WAYLAND=1
 
 #Qt stuff
-export QT_AUTO_SCREEN_SCALE_FACTOR=1
-export QT_QplA_PLATFORM=wayland;xcb
-export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+#export QT_AUTO_SCREEN_SCALE_FACTOR=1
+#export QT_QplA_PLATFORM=wayland;xcb
+#export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
 
-export WLR_DRM_NO_ATOMIC=0
+#export WLR_DRM_NO_ATOMIC=0
 #export GDK_SCALE=1.25
+#
+export UWSM_USE_SESSION_SLICE=1

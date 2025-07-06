@@ -53,6 +53,7 @@ wall_selection=$(find "${wall_dir}"  -maxdepth 1  -type f \( -iname "*.jpg" -o -
 # Set the wallpaper
 [[ -n "$wall_selection" ]] || exit 1
 swww img ${wall_dir}/${wall_selection}
+cp ${wall_dir}/${wall_selection} $HOME/.config/hypr/wallpaper/current_wallpaper
 
 exit 0
 

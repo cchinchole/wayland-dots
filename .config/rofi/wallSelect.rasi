@@ -5,6 +5,8 @@ configuration {
     show-icons:                  true;
     drun-display-format:         "{name}";
     font:                        "JetBrainsMono NF Bold 11";
+    kb-row-left: "h";
+    kb-row-right: "l";
     
     //hover-select:				 true;
 	//me-select-entry:			 "";

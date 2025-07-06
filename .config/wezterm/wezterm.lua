@@ -2,7 +2,8 @@ local wezterm = require 'wezterm'
 
 local config = wezterm.config_builder()
 
-config.color_scheme = 'Darcula (base16)'
+--config.color_scheme = 'Darcula (base16)'
+config.color_scheme = 'Black Metal (base16)'
 --config.font = wezterm.font('JetBrains Mono', { weight = 'Bold', italic = false })
 config.font = wezterm.font 'Iosevka Nerd Font'
 config.font_size = 36
