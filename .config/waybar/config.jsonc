@@ -4,11 +4,11 @@
   "modules-left": [
     "hyprland/workspaces",
     "sway/workspaces",
-    "tray",
-  ],
+    "tray"
+],
   "modules-center": ["custom/music"],
   "modules-right": [
-    "custom/nord",
+    //"custom/nord",
     "network",
     "pulseaudio",
     //"cpu",
@@ -16,7 +16,7 @@
     //"battery",
     "hyprland/language",
     "sway/language",
-    "clock",
+    "clock"
   ],
   "sway/workspaces": {
     "format": "{name}",
@@ -47,7 +47,7 @@
   "custom/nord": {
         "format": "󰖂 {}",
         "exec": "${HOME}/.config/waybar/scripts/nord.sh -s",
-        "interval": 3,
+        "interval": 3
   },
   "custom/music": {
     "format": "  {}",
@@ -72,7 +72,7 @@
   },
   "cpu": {
     "interval": 1,
-    "format": " {usage:>2}%",
+    "format": " {usage:>2}%"
   },
   "memory": {
     "interval": 30,
@@ -91,5 +91,5 @@
   },
   "sway/language": {
         "format": "{short} "
-    },
+    }
 }

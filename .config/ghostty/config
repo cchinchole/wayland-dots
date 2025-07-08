@@ -1,4 +1,5 @@
-theme = OneHalfDark
+#theme = OneHalfDark
+theme = IR_Black
 font-size = 24
 window-theme = system
 gtk-titlebar = false

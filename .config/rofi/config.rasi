@@ -1,16 +1,10 @@
 configuration {
-	width: 1000;
-	show-icons: true;
-	lines: 15;
-	columns: 1;
-	font: "JetBrains Mono 16";
-	bw: 0;
-	padding: 100;
-	eh: 1;
-	auto-select: false;
-	line-margin: 18;
-	separator-style: "solid";
-	hide-scrollbar: true;
-}
-
-@theme "~/.cache/wal/colors-rofi-dark.rasi"
+    kb-row-up: "Up,Control+k,Shift+Tab,Shift+ISO_Left_Tab";
+    kb-row-down: "Down,Control+j";
+    kb-accept-entry: "Control+m,Return,KP_Enter";
+    terminal: "mate-terminal";
+    kb-remove-to-eol: "Control+Shift+e";
+    /*kb-mode-next: "Shift+Right,Control+Tab,Control+l";*/
+    kb-mode-previous: "Shift+Left,Control+Shift+Tab,Control+h";
+    kb-remove-char-back: "BackSpace";
+} 

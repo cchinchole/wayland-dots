@@ -20,7 +20,7 @@
 
 
 # Set some variables
-wall_dir="${HOME}/Pictures/Backgrounds/"
+wall_dir="${HOME}/pictures/backgrounds/"
 cacheDir="${HOME}/.cache/rofi_wallpapers/${theme}"
 rofi_command="rofi -x11 -dmenu -theme ${HOME}/.config/rofi/wallSelect.rasi -theme-str ${rofi_override}"
 
