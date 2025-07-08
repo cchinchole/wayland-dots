@@ -6,7 +6,7 @@
 ## Changelog ##
 1. 7/07/25 - Removed many apps as they were not used.
 2. 7/07/25 - Swapped hyprland back from using UWSM and removed ALL environment variables for testing, so far, haven't had issues so leaving this way thus far.
-COMMIT #9955bd3 has bspwm, environment.d, ohmyposh, picom, polybar, sway, sxhkd, systemd/user, tmux, uwsm, wal/templates, and wezterm
+3. https://github.com/cchinchole/wayland-dots/commit/9955bd3048c9c7e83fe481de1918ba9df8135c61 has bspwm, environment.d, ohmyposh, picom, polybar, sway, sxhkd, systemd/user, tmux, uwsm, wal/templates, and wezterm
 
 ## Getting / Setting Mime ##
 xdg-mime query default inode/directory
