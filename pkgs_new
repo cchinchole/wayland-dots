@@ -50,6 +50,7 @@ c3c #C3 Compiler
 tree-sitter-cli #Syntax highlighting
 neovim
 bear #clangd json builder
+valgrind
 
 #Apps
 ghostty #Terminal
@@ -78,6 +79,7 @@ ntfs #Windows file system
 ffmpeg #Video
 bluez #Bluetooth
 bluez-utils #Bluetooth
+less
 
 
 #Fonts
