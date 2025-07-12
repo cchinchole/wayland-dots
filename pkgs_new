@@ -92,6 +92,16 @@ noto-fonts-cjk #Japanese, Korean, Simple and Traditional Chinese, Hong Kong
 #git clone https://aur.archlinux.org/paru.git
 #cd paru && makepkg -si
 #Command used paru -S
+
+#SDDM Theme
+sddm-silent-theme-git
+#mod /etc/sddm.conf 
+##    [General]
+#    InputMethod=qtvirtualkeyboard
+#    GreeterEnvironment=QML2_IMPORT_PATH=/usr/share/sddm/themes/silent/components/,QT_IM_MODULE=qtvirtualkeyboard
+
+#    [Theme]
+#    Current=silent
     
 #AUR Apps
 1password-beta
