@@ -32,6 +32,7 @@ bc #For the wallpaper selector
 #FSTAB Mod for gamedrive
 #/etc/fstab
 #UUID=xxx  /home/xxx/gamedrive  ntfs    defaults,uid=1000,gid=1000,umask=022 0 0
+#UUID=xxx  /home/xxx/videos  ntfs    defaults,uid=1000,gid=1000,umask=022 0 0
 
 #hyprpm
 cmake, meson, cpio, pkg-config, git, gcc
@@ -54,15 +55,19 @@ valgrind
 
 #Apps
 ghostty #Terminal
-discord
 thunar #File explorer
 rofi-wayland #App launcher
 swaync #Notifactions (REQUIRED)
-waybar #Status bar
+#waybar #Status bar
+quickshell #Status Bar
 sww #Wallpaper
 imv #View images
 mpv #Watch Videoes
+discord
 obs-studio
+qbittorrent
+kvantum #QT Theming
+
 
 #Thunar icon previews
 tumblr
@@ -106,6 +111,8 @@ sddm-silent-theme-git
 #AUR Apps
 1password-beta
 librewolf-bin
+rate-mirrors-bin
+jq mpvpaper gtk4 webkitgtk-6.0 python-gobject
 
 #Games
 osu-lazer-tachyon-bin
@@ -115,3 +122,15 @@ opentabletdriver
 ttf-mplus-git #Cyrillic, Japanese, Latin, Greek, and Vietnamese
 ttf-google-fonts-git #Covers pretty much the rest
 
+#vpn
+nordvpn-bin
+
+#Anime
+nyaa-bin
+
+#Theme
+arc-gtk-theme
+qt6-5compat
+
+## Theming ##
+#gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'

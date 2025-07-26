@@ -1,5 +1,7 @@
 #theme = OneHalfDark
-theme = IR_Black
+#theme = IR_Black
+keybind = ctrl+,=unbind
+keybind = ctrl+i=unbind
 font-size = 24
 window-theme = system
 gtk-titlebar = false

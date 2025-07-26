@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=osu!
+MimeType=application/x-osu-skin-archive;application/x-osu-replay;application/x-osu-beatmap-archive;
+Exec=/home/ryoshu/.local/bin/osu-wine --osuhandler %f
+NoDisplay=true
+StartupNotify=true
+Icon=/home/ryoshu/.local/share/icons/osu-wine.png

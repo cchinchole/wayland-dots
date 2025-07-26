@@ -1,0 +1,8 @@
+[MIME Cache]
+application/x-osu-beatmap-archive=osuwinello-file-extensions-handler.desktop;
+application/x-osu-replay=osuwinello-file-extensions-handler.desktop;
+application/x-osu-skin-archive=osuwinello-file-extensions-handler.desktop;
+x-scheme-handler/discord-1216669957799018608=discord-1216669957799018608.desktop;
+x-scheme-handler/http=open-url.desktop;
+x-scheme-handler/https=open-url.desktop;
+x-scheme-handler/osu=osuwinello-url-handler.desktop;
